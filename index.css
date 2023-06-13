@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Arimo:wght@600&family=Merriweather:wght@300&family=Noto+Sans:wght@300&family=Roboto+Condensed:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background: #11131e;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
