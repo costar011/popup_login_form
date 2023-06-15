@@ -36,3 +36,27 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.container {
+    transform-origin: center;
+}
+
+.show-btn:active {
+    scale: 0.9;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.container {
+    scale: 0;
+    opacity: 0;
+    z-index: -1;
+    background: #fff;
+
+    width: 410px;
+    padding: 30px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
