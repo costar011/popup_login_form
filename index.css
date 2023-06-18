@@ -107,3 +107,54 @@ form .data input {
     font-size: 17px;
     border: 1px solid silver;
 }
+
+form .data input:focus {
+    border-color: #3498db;
+    border-bottom-width: 2px;
+}
+
+form .forgot-pass {
+    margin-top: -8px;
+}
+
+form .forgot-pass a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+form .forgot-pass a:hover {
+    text-decoration: underline;
+}
+
+form .btn {
+    margin: 30px 0;
+    height: 45px;
+
+    width: 100%;
+    position: relative;
+    left: -100%;
+    z-index: -1;
+    transition: all 0.4s;
+}
+
+form .btn:hover .inner {
+    left: 0;
+}
+
+form .btn button {
+    height: 100%;
+    width: 100%;
+    background: none;
+    border: none;
+
+    color: #fff;
+    background: #11131e;
+    font-size: 18px;
+    font-weight: 500;
+
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 8px;
+    overflow: hidden;
+}
