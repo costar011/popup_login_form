@@ -5,7 +5,7 @@
     padding: 0;
     outline: none;
     box-sizing: border-box;
-    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 body {
@@ -157,4 +157,17 @@ form .btn button {
     cursor: pointer;
     border-radius: 8px;
     overflow: hidden;
+}
+
+form .signup-link {
+    text-align: center;
+}
+
+form .signup-link a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+form .signup-link a:hover {
+    text-decoration: underline;
 }
