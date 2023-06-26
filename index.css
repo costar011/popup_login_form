@@ -75,3 +75,13 @@ input[type="checkbox"] {
     font-size: 18px;
     cursor: pointer;
 }
+
+.container .close-btn:hover {
+    color: #3498db;
+}
+
+.container .text {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
